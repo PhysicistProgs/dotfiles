@@ -37,6 +37,10 @@ Host mc-7
 	HostName 172.23.57.148
 	User root
 
+Host work 
+	HostName 192.168.54.125
+	User a-gluh
+
 # not actual config
 # Host ngfw-8-e3010
 # 	HostName 192.168.70.97
