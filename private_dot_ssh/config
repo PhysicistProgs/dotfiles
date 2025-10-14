@@ -6,43 +6,10 @@ Host atest-old
 	HostName 172.23.0.244
 	User devadm
 
-Host cli_current
-	HostName 172.25.87.194
-	User Admin
-	Port 2200
-
-Host ktls-ngfw
-	HostName 172.23.45.155 
-	User root
-
 Host ngfw-7
 	HostName 172.26.98.207 
-	User root
-
-
-
-Host test-ngfw
-	HostName 172.23.137.116 
-	User root
-
-Host old-ngfw
-	HostName 172.23.122.245 
-	User root
-
-Host global-search-ngfw
-	HostName 172.23.103.6  
-	User root
-
-Host mc-7
-	HostName 172.23.57.148
 	User root
 
 Host work 
 	HostName 192.168.54.125
 	User a-gluh
-
-# not actual config
-# Host ngfw-8-e3010
-# 	HostName 192.168.70.97
-# 	User root
-
