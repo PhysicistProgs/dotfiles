@@ -13,3 +13,7 @@ Host ngfw-7
 Host work 
 	HostName 192.168.54.125
 	User a-gluh
+
+Host laptop
+	HostName 10.0.2.12
+	User a-gluh
