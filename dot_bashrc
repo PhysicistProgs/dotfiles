@@ -122,7 +122,6 @@ export P4CONFIG=.p4config
 PATH="$PATH:$HOME/.local/bin"
 export PATH=$PATH:/root/.cargo/bin
 export PATH=$PATH://home/a-gluh/bin/allure-2.9.0/bin
-source ~/.erlang_installs/erl27/activate
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
