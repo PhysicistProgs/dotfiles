@@ -122,7 +122,7 @@ export P4CONFIG=.p4config
 PATH="$PATH:$HOME/bin"
 export PATH=$PATH:/root/.cargo/bin
 export PATH=$PATH://home/a-gluh/bin/allure-2.9.0/bin
-
+export PATH=$PATH:$HOME/.local/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -130,3 +130,7 @@ export NVM_DIR="$HOME/.nvm"
 
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
