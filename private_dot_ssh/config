@@ -7,7 +7,7 @@ Host atest-old
 	User devadm
 
 Host ngfw-7
-	HostName 172.26.98.207 
+	HostName 172.26.180.213 
 	User root
 
 Host work 
